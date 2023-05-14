@@ -151,7 +151,7 @@ p {
 }
 
 h3{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     float: left;
     margin-left: 10px;
@@ -160,7 +160,7 @@ h3{
     height: 100%;
 }
 h4{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     float: left;
     margin-left: 10px;
@@ -169,36 +169,24 @@ h4{
     height: 100%;
 }
 h5{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     float: left;
-    margin-left: -8px;
+    margin-left: -6px;
     width: 100%;
     padding: 10px;
     height: 100%;
 }
 
 h6{
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
     float: left;
-    margin-left: 10px;
+    margin-left: -9px;
     width: 100%;
     padding: 10px;
     height: 100%;
 }
-
-.hh h3{
-    font-family: cursive;
-    font-size: xx-large;
-    float: left;
-    margin-left: -4px;
-    width: 100%;
-    padding: 10px;
-    height: 100%;
-  
-}
-
 
 label.logo{
     color: white;
@@ -208,7 +196,7 @@ label.logo{
     flex: right;
     margin-right: 100%;
     font-weight: bold;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .checkButton{
