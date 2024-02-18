@@ -1,0 +1,126 @@
+
+        :root {
+            --bg: #f4f1f1; 
+            --black: #000000;
+        }
+        body {background: var(--bg); overflow-x: hidden;}
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .container a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            border: 2px solid rgb(230, 230, 230);
+            border-radius: 1.5em 0 1.5em;
+            color: #837a7a;
+        }
+
+        
+        .container a:hover {
+          color: white;
+          transform: scale(1.02);
+          background-color: rgb(115, 110, 115);
+        }
+        
+        .title {
+            width: 35%;
+            margin: 210px 150px;
+        }
+
+        .title .first {
+            font-size: 30px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .title .first img {
+            position: absolute;
+            width: 40%;
+            height: 80%;
+            margin: -23% 40%;
+            
+        }
+
+      .about {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 100vh;
+        margin: 30%;
+      }
+      
+      .aboutme img {
+        position: absolute;
+        height: 70vh;
+        width: 70vh;
+        margin: -35px -400px;
+      }
+
+      .aboutme h1 {
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .song > h1 {
+        display: flex;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        margin: -80px 10%;
+      }
+
+      .song > div {
+        display: flex;
+        margin: -400px 0;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .artist > div {
+        border: 2px solid black;
+        border-radius: 2em;
+        width: 20%;
+        height: 60vh;
+        margin: 0 10px;
+        background-color: #bababa6c;
+      }
+
+      .artist > div > a > img {
+        width: 100%; height: 40vh; border-radius: 2em;
+      }
+
+      .artist a {
+        text-decoration: none;
+      }
+      
+      .artist > div > a > h1 {
+        color: rgb(0, 0, 0);
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .artist div:hover {
+        background-color: var(--bg);
+        transform: scale(1.10);
+      }
+
+      @media only screen and (max-width: 600px) {
+        .first {
+          display: flex;
+          justify-content: center;
+          height: 100vh;
+          width: 100%;
+        }
+        .first h1 {
+          height: 10vh;
+          margin: -150px -90px;
+          font-size: 30px;
+        }
+        .first img {
+          display: block;
+        }
+      }
